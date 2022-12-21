@@ -44,11 +44,12 @@ public class Book {
 
     }
 
+
     @Override
     public String toString() {
         return
                 "Название - " + bookName +
-                ", " + bookAuthor +
-                ", Год выпуска - " + bookYear;
+                        ", " + bookAuthor +
+                        ", Год выпуска - " + bookYear;
     }
 }
