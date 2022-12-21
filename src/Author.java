@@ -11,6 +11,7 @@ public class Author {
         this.authorMiddleName = authorMiddleName;
         this.authorLastName = authorLastName;
 
+
     }
 
 
@@ -44,6 +45,6 @@ public class Author {
         return "Автор: " +
                 "Имя - " + authorFirstName +
                 " ,Отчество - " + authorMiddleName +
-                " ,Фамилия - " + authorLastName ;
+                " ,Фамилия - " + authorLastName;
     }
 }
